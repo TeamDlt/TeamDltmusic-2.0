@@ -2,7 +2,7 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from sira.filters import command
-from VCPlayBot.helpers.decorators import sudo_users_only, errors
+from sira.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("downloads")
 raw = os.path.realpath("raw_files")
